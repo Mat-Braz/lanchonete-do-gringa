@@ -56,3 +56,6 @@ html{scroll-padding-top:132px}section{scroll-margin-top:0}.skip{z-index:50}
 .footer-logo{display:block;width:88px;height:88px;object-fit:contain}.footer-bottom .footer-brand{justify-self:start}
 @media(max-width:1000px) and (min-width:651px){header{grid-template-columns:minmax(0,1fr) auto;min-height:100px;padding:8px 0;gap:15px}header nav{justify-self:end;gap:16px}.brand-logo{width:76px;height:76px}html{scroll-padding-top:120px}}
 @media(max-width:650px){header{position:sticky;top:0;min-height:90px;padding:8px 0}header .brand-logo{width:70px;height:70px}html{scroll-padding-top:110px}.footer-logo{width:82px;height:82px}header #navigation.open{max-height:60vh;overflow-y:auto}.footer-bottom .footer-brand{align-self:center}}
+
+/* Navegação acompanha o fluxo normal da página. */
+header{position:relative;top:auto;box-shadow:none}html{scroll-padding-top:25px}
